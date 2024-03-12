@@ -6,6 +6,7 @@ public class FirstApp {
 
         int name = 10;
 
+
         float val = 10;
         double doubleVal = 10.0;
 
