@@ -21,6 +21,7 @@ public class FirstApp {
 
         int a = 42;
 
+
         a++; // a = a + 1
         a--; // a = a - 1
 
