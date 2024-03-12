@@ -39,7 +39,7 @@ public class FirstApp {
         if (v1 > v2) {
             System.out.println("v1 > v2");
         } else if (v1 < v2) {
-            System.out.println("v1 > v2");
+            System.out.println("v1 < v2");
         } else {
             System.out.println("v1 = v2");
         }
