@@ -3,6 +3,7 @@ package Course1.Lesson2;
 public class MethodApp {
 
     public static final String TEMPLATE = "int = %d string = %s\n";
+
     public static void main(String[] args) {
 
         int v1 = multiplication(4, 10);

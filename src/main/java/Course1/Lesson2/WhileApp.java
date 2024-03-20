@@ -5,7 +5,7 @@ public class WhileApp {
 
         int i = 10;
         while (i > 0) { //maybe
-            if (i % 2 ==0) {
+            if (i % 2 == 0) {
                 i--;
                 continue;
             }

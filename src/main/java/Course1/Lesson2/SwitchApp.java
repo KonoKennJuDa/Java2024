@@ -9,9 +9,9 @@ public class SwitchApp {
         checkOrderStatus2("SHIPPED");
         String month = "JAN";
         switch (month) {
-            case "DEC" :
-            case "JAN" :
-            case "FEB" : {
+            case "DEC":
+            case "JAN":
+            case "FEB": {
                 System.out.println("winter");
                 break;
             }
@@ -39,8 +39,8 @@ public class SwitchApp {
                 System.out.println("Доставлен");
                 break;
             }
-            case "SHIPPED" :
-            case "IN_DELIVERY" : {
+            case "SHIPPED":
+            case "IN_DELIVERY": {
                 System.out.println("В доставке");
                 break;
             }
