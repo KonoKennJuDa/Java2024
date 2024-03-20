@@ -14,6 +14,7 @@ public class WhileApp {
         }
 
         /*while (true) { // infinity
+         *
         }*/
 
         int j = 10;
