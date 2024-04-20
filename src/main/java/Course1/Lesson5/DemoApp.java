@@ -1,8 +1,12 @@
 package Course1.Lesson5;
 
+import java.util.Arrays;
+
 public class DemoApp {
 
     public static void main(String[] args) {
+        System.out.println("Args = " + Arrays.toString(args));
+
         Car car = new Car("Dodge", 2020);
 
         car.info();
