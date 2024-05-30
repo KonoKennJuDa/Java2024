@@ -23,5 +23,10 @@ public class Van extends Car {
         super.printName();
         System.out.println("This is a van");
     }
+
+    @Override
+    public void printInventionDate() {
+        System.out.println("2012");
+    }
 }
 

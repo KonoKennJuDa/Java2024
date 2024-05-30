@@ -33,11 +33,28 @@ public class Car extends Transport {
     }
 
     @Override
+    public void wroomWroom() {
+        System.out.println("Wroooom");
+    }
+
+    /**
+     * @Override public int getCapacity() {
+     * return 0;
+     * }
+     **/
+
+    @Override
     public String toString() {
         return model + " " + year;
     }
 
     void info() {
         System.out.println(this);
+    }
+
+
+    @Override
+    public void printInventionDate() {
+        System.out.println("2002");
     }
 }

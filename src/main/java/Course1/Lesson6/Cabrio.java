@@ -22,4 +22,9 @@ public class Cabrio extends Car {
     void printName() {
         System.out.println("This is a cabrio");
     }
+
+    @Override
+    public void printInventionDate() {
+        System.out.println("1950");
+    }
 }
