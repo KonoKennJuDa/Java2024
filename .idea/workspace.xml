@@ -5,52 +5,7 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="f95bb392-2fd2-49b5-9bc7-43adecafa306" name="Changes" comment="Course2Lesson1">
-      <change afterPath="$PROJECT_DIR$/.idea/compiler.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/encodings.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/jarRepositories.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/misc.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/uiDesigner.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/vcs.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/target/classes/Course1/Lesson1/FirstApp.class" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/target/classes/Course1/Lesson2/CycleApp.class" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/target/classes/Course1/Lesson2/DemoApp.class" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/target/classes/Course1/Lesson2/MethodApp.class" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/target/classes/Course1/Lesson2/PrintUtil.class" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/target/classes/Course1/Lesson2/SwitchApp.class" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/target/classes/Course1/Lesson2/WhileApp.class" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/target/classes/Course1/Lesson3/ArrayApp.class" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/target/classes/Course1/Lesson3/LogicApp.class" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/target/classes/Course1/Lesson3/StringApp.class" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/target/classes/Course1/Lesson3/TwoDimArrayApp.class" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/target/classes/Course1/Lesson4/CrossesZeroesApp.class" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/target/classes/Course1/Lesson4/TaskApp.class" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/target/classes/Course1/Lesson5/Car.class" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/target/classes/Course1/Lesson5/DemoApp.class" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/target/classes/Course1/Lesson5/Robot.class" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/target/classes/Course1/Lesson6/App.class" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/target/classes/Course1/Lesson6/Bike.class" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/target/classes/Course1/Lesson6/Cabrio.class" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/target/classes/Course1/Lesson6/Car.class" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/target/classes/Course1/Lesson6/Example.class" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/target/classes/Course1/Lesson6/ExampleApp.class" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/target/classes/Course1/Lesson6/Invention.class" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/target/classes/Course1/Lesson6/RentApp.class" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/target/classes/Course1/Lesson6/Transport.class" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/target/classes/Course1/Lesson6/Van.class" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/target/classes/Course1/Lesson7/App.class" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/target/classes/Course1/Lesson7/Car.class" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/target/classes/Course1/Lesson7/GasStation.class" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/target/classes/Course1/Lesson7/StringApp.class" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/target/classes/Course1/Lesson8/CounterApp$1.class" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/target/classes/Course1/Lesson8/CounterApp$2.class" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/target/classes/Course1/Lesson8/CounterApp$3.class" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/target/classes/Course1/Lesson8/CounterApp$4.class" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/target/classes/Course1/Lesson8/CounterApp.class" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/target/classes/Course1/Lesson8/MyWindow$1.class" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/target/classes/Course1/Lesson8/MyWindow$2.class" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/target/classes/Course1/Lesson8/MyWindow$3.class" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/target/classes/Course1/Lesson8/MyWindow.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/Course2/Lesson2/App.java" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -481,7 +436,15 @@
       <option name="project" value="LOCAL" />
       <updated>1718558532185</updated>
     </task>
-    <option name="localTasksCounter" value="29" />
+    <task id="LOCAL-00029" summary="Course2Lesson1">
+      <option name="closed" value="true" />
+      <created>1718558829648</created>
+      <option name="number" value="00029" />
+      <option name="presentableId" value="LOCAL-00029" />
+      <option name="project" value="LOCAL" />
+      <updated>1718558829648</updated>
+    </task>
+    <option name="localTasksCounter" value="30" />
     <servers />
   </component>
   <component name="Vcs.Log.Tabs.Properties">
