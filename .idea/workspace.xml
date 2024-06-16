@@ -1,0 +1,514 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="AutoImportSettings">
+    <option name="autoReloadType" value="SELECTIVE" />
+  </component>
+  <component name="ChangeListManager">
+    <list default="true" id="f95bb392-2fd2-49b5-9bc7-43adecafa306" name="Changes" comment="Course2Lesson1">
+      <change afterPath="$PROJECT_DIR$/.idea/compiler.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/encodings.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/jarRepositories.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/misc.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/uiDesigner.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/vcs.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/classes/Course1/Lesson1/FirstApp.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/classes/Course1/Lesson2/CycleApp.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/classes/Course1/Lesson2/DemoApp.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/classes/Course1/Lesson2/MethodApp.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/classes/Course1/Lesson2/PrintUtil.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/classes/Course1/Lesson2/SwitchApp.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/classes/Course1/Lesson2/WhileApp.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/classes/Course1/Lesson3/ArrayApp.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/classes/Course1/Lesson3/LogicApp.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/classes/Course1/Lesson3/StringApp.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/classes/Course1/Lesson3/TwoDimArrayApp.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/classes/Course1/Lesson4/CrossesZeroesApp.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/classes/Course1/Lesson4/TaskApp.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/classes/Course1/Lesson5/Car.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/classes/Course1/Lesson5/DemoApp.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/classes/Course1/Lesson5/Robot.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/classes/Course1/Lesson6/App.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/classes/Course1/Lesson6/Bike.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/classes/Course1/Lesson6/Cabrio.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/classes/Course1/Lesson6/Car.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/classes/Course1/Lesson6/Example.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/classes/Course1/Lesson6/ExampleApp.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/classes/Course1/Lesson6/Invention.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/classes/Course1/Lesson6/RentApp.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/classes/Course1/Lesson6/Transport.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/classes/Course1/Lesson6/Van.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/classes/Course1/Lesson7/App.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/classes/Course1/Lesson7/Car.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/classes/Course1/Lesson7/GasStation.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/classes/Course1/Lesson7/StringApp.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/classes/Course1/Lesson8/CounterApp$1.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/classes/Course1/Lesson8/CounterApp$2.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/classes/Course1/Lesson8/CounterApp$3.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/classes/Course1/Lesson8/CounterApp$4.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/classes/Course1/Lesson8/CounterApp.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/classes/Course1/Lesson8/MyWindow$1.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/classes/Course1/Lesson8/MyWindow$2.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/classes/Course1/Lesson8/MyWindow$3.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/classes/Course1/Lesson8/MyWindow.class" afterDir="false" />
+    </list>
+    <option name="SHOW_DIALOG" value="false" />
+    <option name="HIGHLIGHT_CONFLICTS" value="true" />
+    <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
+    <option name="LAST_RESOLUTION" value="IGNORE" />
+  </component>
+  <component name="ChangesViewManager">
+    <option name="groupingKeys">
+      <option value="directory" />
+      <option value="module" />
+    </option>
+  </component>
+  <component name="FileTemplateManagerImpl">
+    <option name="RECENT_TEMPLATES">
+      <list>
+        <option value="Interface" />
+        <option value="Class" />
+      </list>
+    </option>
+  </component>
+  <component name="Git.Settings">
+    <option name="RECENT_BRANCH_BY_REPOSITORY">
+      <map>
+        <entry key="$PROJECT_DIR$" value="main" />
+      </map>
+    </option>
+    <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
+  </component>
+  <component name="GitHubPullRequestSearchHistory">{
+  &quot;lastFilter&quot;: {
+    &quot;state&quot;: &quot;OPEN&quot;,
+    &quot;assignee&quot;: &quot;KonoKennJuDa&quot;
+  }
+}</component>
+  <component name="GithubPullRequestsUISettings">{
+  &quot;selectedUrlAndAccountId&quot;: {
+    &quot;url&quot;: &quot;https://github.com/KonoKennJuDa/Java2024.git&quot;,
+    &quot;accountId&quot;: &quot;8adcb09b-f2c1-4aea-a1b5-b02c677714ed&quot;
+  }
+}</component>
+  <component name="HighlightingSettingsPerFile">
+    <setting file="file://$PROJECT_DIR$/src/main/java/Course1/Lesson6/Example.java" root0="FORCE_HIGHLIGHTING" />
+  </component>
+  <component name="ProblemsViewState">
+    <option name="selectedTabId" value="CurrentFile" />
+  </component>
+  <component name="ProjectColorInfo">{
+  &quot;associatedIndex&quot;: 2
+}</component>
+  <component name="ProjectId" id="2dbHCOYplL7OM4uMoM8tGAmPA0v" />
+  <component name="ProjectLevelVcsManager" settingsEditedManually="true" />
+  <component name="ProjectViewState">
+    <option name="hideEmptyMiddlePackages" value="true" />
+    <option name="showLibraryContents" value="true" />
+  </component>
+  <component name="PropertiesComponent"><![CDATA[{
+  "keyToString": {
+    "ASKED_SHARE_PROJECT_CONFIGURATION_FILES": "true",
+    "Application.App.executor": "Run",
+    "Application.ArrayApp.executor": "Run",
+    "Application.CounterApp (1).executor": "Run",
+    "Application.CounterApp (2).executor": "Run",
+    "Application.CounterApp (3).executor": "Run",
+    "Application.CounterApp (4).executor": "Run",
+    "Application.CounterApp (5).executor": "Run",
+    "Application.CounterApp.executor": "Run",
+    "Application.Course1.Lesson7.App.executor": "Run",
+    "Application.Course2.Lesson1.Interfaces.App.executor": "Run",
+    "Application.CrossesZeroesApp.executor": "Run",
+    "Application.CycleApp.executor": "Run",
+    "Application.DemoApp.executor": "Run",
+    "Application.DemoApp1.executor": "Run",
+    "Application.ExampleApp.executor": "Run",
+    "Application.FirstApp.executor": "Run",
+    "Application.LogicApp.executor": "Run",
+    "Application.Main.executor": "Run",
+    "Application.MethodApp.executor": "Run",
+    "Application.MyWindow (1).executor": "Run",
+    "Application.MyWindow (2).executor": "Run",
+    "Application.MyWindow (3).executor": "Run",
+    "Application.MyWindow.executor": "Run",
+    "Application.RentApp.executor": "Run",
+    "Application.StringApp.executor": "Run",
+    "Application.SwitchApp.executor": "Run",
+    "Application.TaskApp.executor": "Run",
+    "Application.TwoDimArrayApp.executor": "Run",
+    "Application.WhileApp.executor": "Run",
+    "RunOnceActivity.OpenProjectViewOnStart": "true",
+    "RunOnceActivity.ShowReadmeOnStart": "true",
+    "git-widget-placeholder": "main",
+    "ignore.virus.scanning.warn.message": "true",
+    "kotlin-language-version-configured": "true",
+    "last_opened_file_path": "C:/g_fov [99]/Kenn'Ju/Программирование/WorkSpace/IntIDEA/Java2024",
+    "project.structure.last.edited": "Modules",
+    "project.structure.proportion": "0.0",
+    "project.structure.side.proportion": "0.2",
+    "settings.editor.selected.configurable": "configurable.group.tools"
+  }
+}]]></component>
+  <component name="RunManager" selected="Application.Course2.Lesson1.Interfaces.App">
+    <configuration name="App" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="Course2.Lesson1.App" />
+      <module name="Java2024" />
+      <option name="PROGRAM_PARAMETERS" value="фыв ффыв " />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="Course2.Lesson1.Interfaces.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="CounterApp (1)" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="Course1.Lesson8.CounterApp" />
+      <module name="Java2024" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="Course1.Lesson8.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="CounterApp (2)" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="Course1.Lesson8.CounterApp" />
+      <module name="Java2024" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="Course1.Lesson8.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="CounterApp (5)" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="Course1.Lesson8.CounterApp" />
+      <module name="Java2024" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="Course1.Lesson8.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="Course2.Lesson1.Interfaces.App" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="Course2.Lesson1.Interfaces.App" />
+      <module name="Java2024" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="Course2.Lesson1.Interfaces.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="WhileApp" type="Application" factoryName="Application" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="Course1.Lesson2.WhileApp" />
+      <module name="Java2024" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="Course1.Lesson2.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <list>
+      <item itemvalue="Application.WhileApp" />
+      <item itemvalue="Application.Course2.Lesson1.Interfaces.App" />
+      <item itemvalue="Application.App" />
+      <item itemvalue="Application.CounterApp (1)" />
+      <item itemvalue="Application.CounterApp (2)" />
+      <item itemvalue="Application.CounterApp (5)" />
+    </list>
+    <recent_temporary>
+      <list>
+        <item itemvalue="Application.Course2.Lesson1.Interfaces.App" />
+        <item itemvalue="Application.App" />
+        <item itemvalue="Application.CounterApp (2)" />
+        <item itemvalue="Application.CounterApp (1)" />
+        <item itemvalue="Application.CounterApp (5)" />
+      </list>
+    </recent_temporary>
+  </component>
+  <component name="SpellCheckerSettings" RuntimeDictionaries="0" Folders="0" CustomDictionaries="0" DefaultDictionary="application-level" UseSingleDictionary="true" transferred="true" />
+  <component name="TaskManager">
+    <task id="LOCAL-00001" summary="init">
+      <option name="closed" value="true" />
+      <created>1710263567501</created>
+      <option name="number" value="00001" />
+      <option name="presentableId" value="LOCAL-00001" />
+      <option name="project" value="LOCAL" />
+      <updated>1710263567501</updated>
+    </task>
+    <task id="LOCAL-00002" summary="init">
+      <option name="closed" value="true" />
+      <created>1710264051865</created>
+      <option name="number" value="00002" />
+      <option name="presentableId" value="LOCAL-00002" />
+      <option name="project" value="LOCAL" />
+      <updated>1710264051865</updated>
+    </task>
+    <task id="LOCAL-00003" summary="init">
+      <option name="closed" value="true" />
+      <created>1710264086155</created>
+      <option name="number" value="00003" />
+      <option name="presentableId" value="LOCAL-00003" />
+      <option name="project" value="LOCAL" />
+      <updated>1710264086155</updated>
+    </task>
+    <task id="LOCAL-00004" summary="Домашка 1">
+      <option name="closed" value="true" />
+      <created>1710268307982</created>
+      <option name="number" value="00004" />
+      <option name="presentableId" value="LOCAL-00004" />
+      <option name="project" value="LOCAL" />
+      <updated>1710268307982</updated>
+    </task>
+    <task id="LOCAL-00005" summary="Домашка 1">
+      <option name="closed" value="true" />
+      <created>1710268632829</created>
+      <option name="number" value="00005" />
+      <option name="presentableId" value="LOCAL-00005" />
+      <option name="project" value="LOCAL" />
+      <updated>1710268632829</updated>
+    </task>
+    <task id="LOCAL-00006" summary="Домашка 1">
+      <option name="closed" value="true" />
+      <created>1710268876817</created>
+      <option name="number" value="00006" />
+      <option name="presentableId" value="LOCAL-00006" />
+      <option name="project" value="LOCAL" />
+      <updated>1710268876817</updated>
+    </task>
+    <task id="LOCAL-00007" summary="Домашка 1">
+      <option name="closed" value="true" />
+      <created>1710269065963</created>
+      <option name="number" value="00007" />
+      <option name="presentableId" value="LOCAL-00007" />
+      <option name="project" value="LOCAL" />
+      <updated>1710269065963</updated>
+    </task>
+    <task id="LOCAL-00008" summary="Домашка 1">
+      <option name="closed" value="true" />
+      <created>1710269211035</created>
+      <option name="number" value="00008" />
+      <option name="presentableId" value="LOCAL-00008" />
+      <option name="project" value="LOCAL" />
+      <updated>1710269211035</updated>
+    </task>
+    <task active="true" id="Default" summary="Default task">
+      <changelist id="f95bb392-2fd2-49b5-9bc7-43adecafa306" name="Changes" comment="Домашка 1" />
+      <created>1710269729289</created>
+      <option name="number" value="Default" />
+      <option name="presentableId" value="Default" />
+      <updated>1710269729289</updated>
+    </task>
+    <task id="LOCAL-00009" summary="init">
+      <option name="closed" value="true" />
+      <created>1710271539381</created>
+      <option name="number" value="00009" />
+      <option name="presentableId" value="LOCAL-00009" />
+      <option name="project" value="LOCAL" />
+      <updated>1710271539381</updated>
+    </task>
+    <task id="LOCAL-00010" summary="Lesson 2">
+      <option name="closed" value="true" />
+      <created>1710957430442</created>
+      <option name="number" value="00010" />
+      <option name="presentableId" value="LOCAL-00010" />
+      <option name="project" value="LOCAL" />
+      <updated>1710957430442</updated>
+    </task>
+    <task id="LOCAL-00011" summary="Lesson 2">
+      <option name="closed" value="true" />
+      <created>1710957689808</created>
+      <option name="number" value="00011" />
+      <option name="presentableId" value="LOCAL-00011" />
+      <option name="project" value="LOCAL" />
+      <updated>1710957689808</updated>
+    </task>
+    <task id="LOCAL-00012" summary="Lesson 2">
+      <option name="closed" value="true" />
+      <created>1710957825840</created>
+      <option name="number" value="00012" />
+      <option name="presentableId" value="LOCAL-00012" />
+      <option name="project" value="LOCAL" />
+      <updated>1710957825840</updated>
+    </task>
+    <task id="LOCAL-00013" summary="ADD">
+      <option name="closed" value="true" />
+      <created>1710958074261</created>
+      <option name="number" value="00013" />
+      <option name="presentableId" value="LOCAL-00013" />
+      <option name="project" value="LOCAL" />
+      <updated>1710958074261</updated>
+    </task>
+    <task id="LOCAL-00014" summary="init">
+      <option name="closed" value="true" />
+      <created>1710958266574</created>
+      <option name="number" value="00014" />
+      <option name="presentableId" value="LOCAL-00014" />
+      <option name="project" value="LOCAL" />
+      <updated>1710958266574</updated>
+    </task>
+    <task id="LOCAL-00015" summary="init">
+      <option name="closed" value="true" />
+      <created>1710958345329</created>
+      <option name="number" value="00015" />
+      <option name="presentableId" value="LOCAL-00015" />
+      <option name="project" value="LOCAL" />
+      <updated>1710958345329</updated>
+    </task>
+    <task id="LOCAL-00016" summary="init">
+      <option name="closed" value="true" />
+      <created>1710958709611</created>
+      <option name="number" value="00016" />
+      <option name="presentableId" value="LOCAL-00016" />
+      <option name="project" value="LOCAL" />
+      <updated>1710958709612</updated>
+    </task>
+    <task id="LOCAL-00017" summary="lesson 2">
+      <option name="closed" value="true" />
+      <created>1710960258797</created>
+      <option name="number" value="00017" />
+      <option name="presentableId" value="LOCAL-00017" />
+      <option name="project" value="LOCAL" />
+      <updated>1710960258797</updated>
+    </task>
+    <task id="LOCAL-00018" summary="lesson 2">
+      <option name="closed" value="true" />
+      <created>1710960826935</created>
+      <option name="number" value="00018" />
+      <option name="presentableId" value="LOCAL-00018" />
+      <option name="project" value="LOCAL" />
+      <updated>1710960826935</updated>
+    </task>
+    <task id="LOCAL-00019" summary="lesson 2">
+      <option name="closed" value="true" />
+      <created>1710960959911</created>
+      <option name="number" value="00019" />
+      <option name="presentableId" value="LOCAL-00019" />
+      <option name="project" value="LOCAL" />
+      <updated>1710960959911</updated>
+    </task>
+    <task id="LOCAL-00020" summary="lesson 3">
+      <option name="closed" value="true" />
+      <created>1712341532336</created>
+      <option name="number" value="00020" />
+      <option name="presentableId" value="LOCAL-00020" />
+      <option name="project" value="LOCAL" />
+      <updated>1712341532336</updated>
+    </task>
+    <task id="LOCAL-00021" summary="lesson 4">
+      <option name="closed" value="true" />
+      <created>1712955334962</created>
+      <option name="number" value="00021" />
+      <option name="presentableId" value="LOCAL-00021" />
+      <option name="project" value="LOCAL" />
+      <updated>1712955334962</updated>
+    </task>
+    <task id="LOCAL-00022" summary="lesson 5">
+      <option name="closed" value="true" />
+      <created>1713629165689</created>
+      <option name="number" value="00022" />
+      <option name="presentableId" value="LOCAL-00022" />
+      <option name="project" value="LOCAL" />
+      <updated>1713629165689</updated>
+    </task>
+    <task id="LOCAL-00023" summary="lesson 5">
+      <option name="closed" value="true" />
+      <created>1713629561555</created>
+      <option name="number" value="00023" />
+      <option name="presentableId" value="LOCAL-00023" />
+      <option name="project" value="LOCAL" />
+      <updated>1713629561555</updated>
+    </task>
+    <task id="LOCAL-00024" summary="lesson 6">
+      <option name="closed" value="true" />
+      <created>1714326452947</created>
+      <option name="number" value="00024" />
+      <option name="presentableId" value="LOCAL-00024" />
+      <option name="project" value="LOCAL" />
+      <updated>1714326452947</updated>
+    </task>
+    <task id="LOCAL-00025" summary="lesson 7">
+      <option name="closed" value="true" />
+      <created>1717100827986</created>
+      <option name="number" value="00025" />
+      <option name="presentableId" value="LOCAL-00025" />
+      <option name="project" value="LOCAL" />
+      <updated>1717100827986</updated>
+    </task>
+    <task id="LOCAL-00026" summary="lesson 8">
+      <option name="closed" value="true" />
+      <created>1717782596527</created>
+      <option name="number" value="00026" />
+      <option name="presentableId" value="LOCAL-00026" />
+      <option name="project" value="LOCAL" />
+      <updated>1717782596527</updated>
+    </task>
+    <task id="LOCAL-00027" summary="Course2Lesson1">
+      <option name="closed" value="true" />
+      <created>1718558312130</created>
+      <option name="number" value="00027" />
+      <option name="presentableId" value="LOCAL-00027" />
+      <option name="project" value="LOCAL" />
+      <updated>1718558312130</updated>
+    </task>
+    <task id="LOCAL-00028" summary="Course2Lesson1">
+      <option name="closed" value="true" />
+      <created>1718558532185</created>
+      <option name="number" value="00028" />
+      <option name="presentableId" value="LOCAL-00028" />
+      <option name="project" value="LOCAL" />
+      <updated>1718558532185</updated>
+    </task>
+    <option name="localTasksCounter" value="29" />
+    <servers />
+  </component>
+  <component name="Vcs.Log.Tabs.Properties">
+    <option name="TAB_STATES">
+      <map>
+        <entry key="MAIN">
+          <value>
+            <State />
+          </value>
+        </entry>
+      </map>
+    </option>
+  </component>
+  <component name="VcsManagerConfiguration">
+    <MESSAGE value="Домашка 1" />
+    <MESSAGE value="Lesson 2" />
+    <MESSAGE value="ADD" />
+    <MESSAGE value="init" />
+    <MESSAGE value="Merge remote-tracking branch 'origin/Java2k24' into Java2k24" />
+    <MESSAGE value="lesson 2" />
+    <MESSAGE value="lesson 3" />
+    <MESSAGE value="lesson 4" />
+    <MESSAGE value="lesson 5" />
+    <MESSAGE value="lesson 6" />
+    <MESSAGE value="lesson 7" />
+    <MESSAGE value="lesson 8" />
+    <MESSAGE value="Course2Lesson1" />
+    <option name="LAST_COMMIT_MESSAGE" value="Course2Lesson1" />
+  </component>
+</project>
