@@ -4,8 +4,24 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="f95bb392-2fd2-49b5-9bc7-43adecafa306" name="Changes" comment="Course2Lesson1">
-      <change afterPath="$PROJECT_DIR$/src/main/java/Course2/Lesson2/App.java" afterDir="false" />
+    <list default="true" id="f95bb392-2fd2-49b5-9bc7-43adecafa306" name="Changes" comment="Course2Lesson2">
+      <change afterPath="$PROJECT_DIR$/src/main/java/Course2/Lesson2/Exception/ExceptionApp.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/Course2/Lesson2/Exception/MyCustomException.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/Course2/Lesson2/News/NewsService.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/Course2/Lesson2/News/OracleNewsService.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/Course2/Lesson2/Poly/Bus.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/Course2/Lesson2/Poly/Cater.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/Course2/Lesson2/Poly/Human.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/Course2/Lesson2/Poly/Ship.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/Course2/Lesson2/Poly/Swimmable.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/Course2/Lesson2/Poly/Transport.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/Course2/Lesson2/Poly/TransportApp.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/Course2/Lesson2/Poly/WaterTransport.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/Course2/Lesson2/Poly/WrongExtens/Jumper.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/Course2/Lesson2/Poly/WrongExtens/Runner.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/Course2/Lesson2/Poly/WrongExtens/Student.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/Course2/Lesson2/App.java" beforeDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -61,51 +77,53 @@
     <option name="hideEmptyMiddlePackages" value="true" />
     <option name="showLibraryContents" value="true" />
   </component>
-  <component name="PropertiesComponent"><![CDATA[{
-  "keyToString": {
-    "ASKED_SHARE_PROJECT_CONFIGURATION_FILES": "true",
-    "Application.App.executor": "Run",
-    "Application.ArrayApp.executor": "Run",
-    "Application.CounterApp (1).executor": "Run",
-    "Application.CounterApp (2).executor": "Run",
-    "Application.CounterApp (3).executor": "Run",
-    "Application.CounterApp (4).executor": "Run",
-    "Application.CounterApp (5).executor": "Run",
-    "Application.CounterApp.executor": "Run",
-    "Application.Course1.Lesson7.App.executor": "Run",
-    "Application.Course2.Lesson1.Interfaces.App.executor": "Run",
-    "Application.CrossesZeroesApp.executor": "Run",
-    "Application.CycleApp.executor": "Run",
-    "Application.DemoApp.executor": "Run",
-    "Application.DemoApp1.executor": "Run",
-    "Application.ExampleApp.executor": "Run",
-    "Application.FirstApp.executor": "Run",
-    "Application.LogicApp.executor": "Run",
-    "Application.Main.executor": "Run",
-    "Application.MethodApp.executor": "Run",
-    "Application.MyWindow (1).executor": "Run",
-    "Application.MyWindow (2).executor": "Run",
-    "Application.MyWindow (3).executor": "Run",
-    "Application.MyWindow.executor": "Run",
-    "Application.RentApp.executor": "Run",
-    "Application.StringApp.executor": "Run",
-    "Application.SwitchApp.executor": "Run",
-    "Application.TaskApp.executor": "Run",
-    "Application.TwoDimArrayApp.executor": "Run",
-    "Application.WhileApp.executor": "Run",
-    "RunOnceActivity.OpenProjectViewOnStart": "true",
-    "RunOnceActivity.ShowReadmeOnStart": "true",
-    "git-widget-placeholder": "main",
-    "ignore.virus.scanning.warn.message": "true",
-    "kotlin-language-version-configured": "true",
-    "last_opened_file_path": "C:/g_fov [99]/Kenn'Ju/Программирование/WorkSpace/IntIDEA/Java2024",
-    "project.structure.last.edited": "Modules",
-    "project.structure.proportion": "0.0",
-    "project.structure.side.proportion": "0.2",
-    "settings.editor.selected.configurable": "configurable.group.tools"
+  <component name="PropertiesComponent">{
+  &quot;keyToString&quot;: {
+    &quot;ASKED_SHARE_PROJECT_CONFIGURATION_FILES&quot;: &quot;true&quot;,
+    &quot;Application.App.executor&quot;: &quot;Run&quot;,
+    &quot;Application.ArrayApp.executor&quot;: &quot;Run&quot;,
+    &quot;Application.CounterApp (1).executor&quot;: &quot;Run&quot;,
+    &quot;Application.CounterApp (2).executor&quot;: &quot;Run&quot;,
+    &quot;Application.CounterApp (3).executor&quot;: &quot;Run&quot;,
+    &quot;Application.CounterApp (4).executor&quot;: &quot;Run&quot;,
+    &quot;Application.CounterApp (5).executor&quot;: &quot;Run&quot;,
+    &quot;Application.CounterApp.executor&quot;: &quot;Run&quot;,
+    &quot;Application.Course1.Lesson7.App.executor&quot;: &quot;Run&quot;,
+    &quot;Application.Course2.Lesson1.Interfaces.App.executor&quot;: &quot;Run&quot;,
+    &quot;Application.CrossesZeroesApp.executor&quot;: &quot;Run&quot;,
+    &quot;Application.CycleApp.executor&quot;: &quot;Run&quot;,
+    &quot;Application.DemoApp.executor&quot;: &quot;Run&quot;,
+    &quot;Application.DemoApp1.executor&quot;: &quot;Run&quot;,
+    &quot;Application.ExampleApp.executor&quot;: &quot;Run&quot;,
+    &quot;Application.ExceptionApp.executor&quot;: &quot;Run&quot;,
+    &quot;Application.FirstApp.executor&quot;: &quot;Run&quot;,
+    &quot;Application.LogicApp.executor&quot;: &quot;Run&quot;,
+    &quot;Application.Main.executor&quot;: &quot;Run&quot;,
+    &quot;Application.MethodApp.executor&quot;: &quot;Run&quot;,
+    &quot;Application.MyWindow (1).executor&quot;: &quot;Run&quot;,
+    &quot;Application.MyWindow (2).executor&quot;: &quot;Run&quot;,
+    &quot;Application.MyWindow (3).executor&quot;: &quot;Run&quot;,
+    &quot;Application.MyWindow.executor&quot;: &quot;Run&quot;,
+    &quot;Application.RentApp.executor&quot;: &quot;Run&quot;,
+    &quot;Application.StringApp.executor&quot;: &quot;Run&quot;,
+    &quot;Application.SwitchApp.executor&quot;: &quot;Run&quot;,
+    &quot;Application.TaskApp.executor&quot;: &quot;Run&quot;,
+    &quot;Application.TransportApp.executor&quot;: &quot;Run&quot;,
+    &quot;Application.TwoDimArrayApp.executor&quot;: &quot;Run&quot;,
+    &quot;Application.WhileApp.executor&quot;: &quot;Run&quot;,
+    &quot;RunOnceActivity.OpenProjectViewOnStart&quot;: &quot;true&quot;,
+    &quot;RunOnceActivity.ShowReadmeOnStart&quot;: &quot;true&quot;,
+    &quot;git-widget-placeholder&quot;: &quot;main&quot;,
+    &quot;ignore.virus.scanning.warn.message&quot;: &quot;true&quot;,
+    &quot;kotlin-language-version-configured&quot;: &quot;true&quot;,
+    &quot;last_opened_file_path&quot;: &quot;C:/g_fov [99]/Kenn'Ju/Программирование/WorkSpace/IntIDEA/Java2024&quot;,
+    &quot;project.structure.last.edited&quot;: &quot;Modules&quot;,
+    &quot;project.structure.proportion&quot;: &quot;0.0&quot;,
+    &quot;project.structure.side.proportion&quot;: &quot;0.2&quot;,
+    &quot;settings.editor.selected.configurable&quot;: &quot;configurable.group.tools&quot;
   }
-}]]></component>
-  <component name="RunManager" selected="Application.Course2.Lesson1.Interfaces.App">
+}</component>
+  <component name="RunManager" selected="Application.ExceptionApp">
     <configuration name="App" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
       <option name="MAIN_CLASS_NAME" value="Course2.Lesson1.App" />
       <module name="Java2024" />
@@ -120,33 +138,7 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="CounterApp (1)" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="Course1.Lesson8.CounterApp" />
-      <module name="Java2024" />
-      <extension name="coverage">
-        <pattern>
-          <option name="PATTERN" value="Course1.Lesson8.*" />
-          <option name="ENABLED" value="true" />
-        </pattern>
-      </extension>
-      <method v="2">
-        <option name="Make" enabled="true" />
-      </method>
-    </configuration>
     <configuration name="CounterApp (2)" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="Course1.Lesson8.CounterApp" />
-      <module name="Java2024" />
-      <extension name="coverage">
-        <pattern>
-          <option name="PATTERN" value="Course1.Lesson8.*" />
-          <option name="ENABLED" value="true" />
-        </pattern>
-      </extension>
-      <method v="2">
-        <option name="Make" enabled="true" />
-      </method>
-    </configuration>
-    <configuration name="CounterApp (5)" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
       <option name="MAIN_CLASS_NAME" value="Course1.Lesson8.CounterApp" />
       <module name="Java2024" />
       <extension name="coverage">
@@ -172,6 +164,33 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
+    <configuration name="ExceptionApp" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="Course2.Lesson2.Exception.ExceptionApp" />
+      <module name="Java2024" />
+      <option name="PROGRAM_PARAMETERS" value="10 10 19" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="Course2.Lesson2.Exception.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="TransportApp" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="Course2.Lesson2.Poly.TransportApp" />
+      <module name="Java2024" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="Course2.Lesson2.Poly.WrongExtens.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
     <configuration name="WhileApp" type="Application" factoryName="Application" nameIsGenerated="true">
       <option name="MAIN_CLASS_NAME" value="Course1.Lesson2.WhileApp" />
       <module name="Java2024" />
@@ -187,19 +206,19 @@
     </configuration>
     <list>
       <item itemvalue="Application.WhileApp" />
-      <item itemvalue="Application.Course2.Lesson1.Interfaces.App" />
       <item itemvalue="Application.App" />
-      <item itemvalue="Application.CounterApp (1)" />
       <item itemvalue="Application.CounterApp (2)" />
-      <item itemvalue="Application.CounterApp (5)" />
+      <item itemvalue="Application.Course2.Lesson1.Interfaces.App" />
+      <item itemvalue="Application.TransportApp" />
+      <item itemvalue="Application.ExceptionApp" />
     </list>
     <recent_temporary>
       <list>
+        <item itemvalue="Application.ExceptionApp" />
+        <item itemvalue="Application.TransportApp" />
         <item itemvalue="Application.Course2.Lesson1.Interfaces.App" />
-        <item itemvalue="Application.App" />
         <item itemvalue="Application.CounterApp (2)" />
-        <item itemvalue="Application.CounterApp (1)" />
-        <item itemvalue="Application.CounterApp (5)" />
+        <item itemvalue="Application.App" />
       </list>
     </recent_temporary>
   </component>
@@ -444,7 +463,15 @@
       <option name="project" value="LOCAL" />
       <updated>1718558829648</updated>
     </task>
-    <option name="localTasksCounter" value="30" />
+    <task id="LOCAL-00030" summary="Course2Lesson2">
+      <option name="closed" value="true" />
+      <created>1718558902652</created>
+      <option name="number" value="00030" />
+      <option name="presentableId" value="LOCAL-00030" />
+      <option name="project" value="LOCAL" />
+      <updated>1718558902652</updated>
+    </task>
+    <option name="localTasksCounter" value="31" />
     <servers />
   </component>
   <component name="Vcs.Log.Tabs.Properties">
@@ -472,6 +499,17 @@
     <MESSAGE value="lesson 7" />
     <MESSAGE value="lesson 8" />
     <MESSAGE value="Course2Lesson1" />
-    <option name="LAST_COMMIT_MESSAGE" value="Course2Lesson1" />
+    <MESSAGE value="Course2Lesson2" />
+    <option name="LAST_COMMIT_MESSAGE" value="Course2Lesson2" />
+  </component>
+  <component name="XDebuggerManager">
+    <breakpoint-manager>
+      <breakpoints>
+        <breakpoint enabled="true" type="java-exception">
+          <properties class="java.lang.IllegalAccessException" package="java.lang" />
+          <option name="timeStamp" value="1" />
+        </breakpoint>
+      </breakpoints>
+    </breakpoint-manager>
   </component>
 </project>
