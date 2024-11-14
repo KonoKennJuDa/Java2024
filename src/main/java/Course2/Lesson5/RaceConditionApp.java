@@ -11,16 +11,16 @@ public class RaceConditionApp {
         Thread t1 = new Thread(() -> {
             for (int i = 0; i < 10000; i++) {
                 //synchronized (lock) {
-                    counter.increment();
-               // }
+                counter.increment();
+                // }
             }
         });
 
         Thread t2 = new Thread(() -> {
             for (int i = 0; i < 10000; i++) {
-              //  synchronized (lock) {
-                    counter.increment();
-               // }
+                //  synchronized (lock) {
+                counter.increment();
+                // }
             }
         });
         t1.start();
