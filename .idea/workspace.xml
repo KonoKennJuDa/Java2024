@@ -5,6 +5,10 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="f95bb392-2fd2-49b5-9bc7-43adecafa306" name="Changes" comment="Course2Lesson5">
+      <change afterPath="$PROJECT_DIR$/src/main/java/Course2/Lesson6/EchoClient.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/Course2/Lesson6/EchoServer.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/shelf/Uncommitted_changes_before_rebase_[Changes]/shelved.patch" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/shelf/Uncommitted_changes_before_rebase__Changes_.xml" beforeDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
@@ -63,71 +67,74 @@
     <option name="hideEmptyMiddlePackages" value="true" />
     <option name="showLibraryContents" value="true" />
   </component>
-  <component name="PropertiesComponent">{
-  &quot;keyToString&quot;: {
-    &quot;ASKED_SHARE_PROJECT_CONFIGURATION_FILES&quot;: &quot;true&quot;,
-    &quot;Application.App.executor&quot;: &quot;Run&quot;,
-    &quot;Application.ArrayApp.executor&quot;: &quot;Run&quot;,
-    &quot;Application.CompareApp (1).executor&quot;: &quot;Run&quot;,
-    &quot;Application.CompareApp (2).executor&quot;: &quot;Run&quot;,
-    &quot;Application.CompareApp.executor&quot;: &quot;Run&quot;,
-    &quot;Application.CounterApp (1).executor&quot;: &quot;Run&quot;,
-    &quot;Application.CounterApp (2).executor&quot;: &quot;Run&quot;,
-    &quot;Application.CounterApp (3).executor&quot;: &quot;Run&quot;,
-    &quot;Application.CounterApp (4).executor&quot;: &quot;Run&quot;,
-    &quot;Application.CounterApp (5).executor&quot;: &quot;Run&quot;,
-    &quot;Application.CounterApp.executor&quot;: &quot;Run&quot;,
-    &quot;Application.Course1.Lesson7.App.executor&quot;: &quot;Run&quot;,
-    &quot;Application.Course2.Lesson1.Interfaces.App.executor&quot;: &quot;Run&quot;,
-    &quot;Application.CrossesZeroesApp.executor&quot;: &quot;Run&quot;,
-    &quot;Application.CycleApp.executor&quot;: &quot;Run&quot;,
-    &quot;Application.DeadLockApp.executor&quot;: &quot;Run&quot;,
-    &quot;Application.DemoApp.executor&quot;: &quot;Run&quot;,
-    &quot;Application.DemoApp1.executor&quot;: &quot;Run&quot;,
-    &quot;Application.ExampleApp.executor&quot;: &quot;Run&quot;,
-    &quot;Application.ExceptionApp.executor&quot;: &quot;Run&quot;,
-    &quot;Application.FirstApp.executor&quot;: &quot;Run&quot;,
-    &quot;Application.IterableApp.executor&quot;: &quot;Run&quot;,
-    &quot;Application.JoinApp.executor&quot;: &quot;Run&quot;,
-    &quot;Application.ListApp.executor&quot;: &quot;Run&quot;,
-    &quot;Application.LogicApp.executor&quot;: &quot;Run&quot;,
-    &quot;Application.Main.executor&quot;: &quot;Run&quot;,
-    &quot;Application.MethodApp.executor&quot;: &quot;Run&quot;,
-    &quot;Application.MyWindow (1).executor&quot;: &quot;Run&quot;,
-    &quot;Application.MyWindow (2).executor&quot;: &quot;Run&quot;,
-    &quot;Application.MyWindow (3).executor&quot;: &quot;Run&quot;,
-    &quot;Application.MyWindow.executor&quot;: &quot;Run&quot;,
-    &quot;Application.RaceConditionApp (1).executor&quot;: &quot;Run&quot;,
-    &quot;Application.RaceConditionApp (2).executor&quot;: &quot;Run&quot;,
-    &quot;Application.RaceConditionApp (3).executor&quot;: &quot;Run&quot;,
-    &quot;Application.RaceConditionApp (4).executor&quot;: &quot;Run&quot;,
-    &quot;Application.RaceConditionApp.executor&quot;: &quot;Run&quot;,
-    &quot;Application.RentApp.executor&quot;: &quot;Run&quot;,
-    &quot;Application.StringApp.executor&quot;: &quot;Run&quot;,
-    &quot;Application.SwitchApp.executor&quot;: &quot;Run&quot;,
-    &quot;Application.TaskApp.executor&quot;: &quot;Run&quot;,
-    &quot;Application.Thread2App.executor&quot;: &quot;Run&quot;,
-    &quot;Application.TransportApp.executor&quot;: &quot;Run&quot;,
-    &quot;Application.TreeApp (1).executor&quot;: &quot;Run&quot;,
-    &quot;Application.TreeApp (2).executor&quot;: &quot;Run&quot;,
-    &quot;Application.TreeApp.executor&quot;: &quot;Run&quot;,
-    &quot;Application.TwoDimArrayApp.executor&quot;: &quot;Run&quot;,
-    &quot;Application.WaitNotifyApp.executor&quot;: &quot;Run&quot;,
-    &quot;Application.WhileApp.executor&quot;: &quot;Run&quot;,
-    &quot;RunOnceActivity.OpenProjectViewOnStart&quot;: &quot;true&quot;,
-    &quot;RunOnceActivity.ShowReadmeOnStart&quot;: &quot;true&quot;,
-    &quot;RunOnceActivity.git.unshallow&quot;: &quot;true&quot;,
-    &quot;git-widget-placeholder&quot;: &quot;main&quot;,
-    &quot;ignore.virus.scanning.warn.message&quot;: &quot;true&quot;,
-    &quot;kotlin-language-version-configured&quot;: &quot;true&quot;,
-    &quot;last_opened_file_path&quot;: &quot;C:/g_fov [99]/Kenn'Ju/Программирование/Plugins/vcs-gitlab-243.21565.204.zip&quot;,
-    &quot;project.structure.last.edited&quot;: &quot;Modules&quot;,
-    &quot;project.structure.proportion&quot;: &quot;0.0&quot;,
-    &quot;project.structure.side.proportion&quot;: &quot;0.2&quot;,
-    &quot;settings.editor.selected.configurable&quot;: &quot;preferences.pluginManager&quot;
+  <component name="PropertiesComponent"><![CDATA[{
+  "keyToString": {
+    "ASKED_SHARE_PROJECT_CONFIGURATION_FILES": "true",
+    "Application.App.executor": "Run",
+    "Application.ArrayApp.executor": "Run",
+    "Application.CompareApp (1).executor": "Run",
+    "Application.CompareApp (2).executor": "Run",
+    "Application.CompareApp.executor": "Run",
+    "Application.CounterApp (1).executor": "Run",
+    "Application.CounterApp (2).executor": "Run",
+    "Application.CounterApp (3).executor": "Run",
+    "Application.CounterApp (4).executor": "Run",
+    "Application.CounterApp (5).executor": "Run",
+    "Application.CounterApp.executor": "Run",
+    "Application.Course1.Lesson7.App.executor": "Run",
+    "Application.Course2.Lesson1.Interfaces.App.executor": "Run",
+    "Application.CrossesZeroesApp.executor": "Run",
+    "Application.CycleApp.executor": "Run",
+    "Application.DeadLockApp.executor": "Run",
+    "Application.DemoApp.executor": "Run",
+    "Application.DemoApp1.executor": "Run",
+    "Application.EchoClient.executor": "Run",
+    "Application.EchoServer.executor": "Run",
+    "Application.ExampleApp.executor": "Run",
+    "Application.ExceptionApp.executor": "Run",
+    "Application.FirstApp.executor": "Run",
+    "Application.IterableApp.executor": "Run",
+    "Application.JoinApp.executor": "Run",
+    "Application.ListApp.executor": "Run",
+    "Application.LogicApp.executor": "Run",
+    "Application.Main.executor": "Run",
+    "Application.MethodApp.executor": "Run",
+    "Application.MyWindow (1).executor": "Run",
+    "Application.MyWindow (2).executor": "Run",
+    "Application.MyWindow (3).executor": "Run",
+    "Application.MyWindow.executor": "Run",
+    "Application.RaceConditionApp (1).executor": "Run",
+    "Application.RaceConditionApp (2).executor": "Run",
+    "Application.RaceConditionApp (3).executor": "Run",
+    "Application.RaceConditionApp (4).executor": "Run",
+    "Application.RaceConditionApp.executor": "Run",
+    "Application.RentApp.executor": "Run",
+    "Application.StringApp.executor": "Run",
+    "Application.SwitchApp.executor": "Run",
+    "Application.TaskApp.executor": "Run",
+    "Application.Thread2App.executor": "Run",
+    "Application.TransportApp.executor": "Run",
+    "Application.TreeApp (1).executor": "Run",
+    "Application.TreeApp (2).executor": "Run",
+    "Application.TreeApp.executor": "Run",
+    "Application.TwoDimArrayApp.executor": "Run",
+    "Application.WaitNotifyApp.executor": "Run",
+    "Application.WhileApp.executor": "Run",
+    "Application.ZYQ.executor": "Run",
+    "RunOnceActivity.OpenProjectViewOnStart": "true",
+    "RunOnceActivity.ShowReadmeOnStart": "true",
+    "RunOnceActivity.git.unshallow": "true",
+    "git-widget-placeholder": "main",
+    "ignore.virus.scanning.warn.message": "true",
+    "kotlin-language-version-configured": "true",
+    "last_opened_file_path": "C:/g_fov [99]/Kenn'Ju/Программирование/Plugins/vcs-gitlab-243.21565.204.zip",
+    "project.structure.last.edited": "Modules",
+    "project.structure.proportion": "0.0",
+    "project.structure.side.proportion": "0.2",
+    "settings.editor.selected.configurable": "preferences.pluginManager"
   }
-}</component>
-  <component name="RunManager" selected="Application.DeadLockApp">
+}]]></component>
+  <component name="RunManager" selected="Application.EchoClient">
     <configuration name="DeadLockApp" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
       <option name="MAIN_CLASS_NAME" value="Course2.Lesson5.DeadLockApp" />
       <module name="Java2024" />
@@ -141,12 +148,12 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="RaceConditionApp (2)" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="Course2.Lesson5.RaceConditionApp" />
+    <configuration name="EchoClient" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="Course2.Lesson6.EchoClient" />
       <module name="Java2024" />
       <extension name="coverage">
         <pattern>
-          <option name="PATTERN" value="Course2.Lesson5.*" />
+          <option name="PATTERN" value="Course2.Lesson6.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
@@ -154,12 +161,12 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="RaceConditionApp (3)" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="Course2.Lesson5.RaceConditionApp" />
+    <configuration name="EchoServer" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="Course2.Lesson6.EchoServer" />
       <module name="Java2024" />
       <extension name="coverage">
         <pattern>
-          <option name="PATTERN" value="Course2.Lesson5.*" />
+          <option name="PATTERN" value="Course2.Lesson6.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
@@ -207,20 +214,20 @@
       </method>
     </configuration>
     <list>
+      <item itemvalue="Application.WhileApp" />
+      <item itemvalue="Application.EchoClient" />
+      <item itemvalue="Application.EchoServer" />
       <item itemvalue="Application.DeadLockApp" />
-      <item itemvalue="Application.RaceConditionApp (2)" />
-      <item itemvalue="Application.RaceConditionApp (3)" />
       <item itemvalue="Application.RaceConditionApp (4)" />
       <item itemvalue="Application.WaitNotifyApp" />
-      <item itemvalue="Application.WhileApp" />
     </list>
     <recent_temporary>
       <list>
+        <item itemvalue="Application.EchoClient" />
+        <item itemvalue="Application.EchoServer" />
         <item itemvalue="Application.DeadLockApp" />
         <item itemvalue="Application.WaitNotifyApp" />
         <item itemvalue="Application.RaceConditionApp (4)" />
-        <item itemvalue="Application.RaceConditionApp (3)" />
-        <item itemvalue="Application.RaceConditionApp (2)" />
       </list>
     </recent_temporary>
   </component>
@@ -497,7 +504,15 @@
       <option name="project" value="LOCAL" />
       <updated>1731622836830</updated>
     </task>
-    <option name="localTasksCounter" value="34" />
+    <task id="LOCAL-00034" summary="Course2Lesson5">
+      <option name="closed" value="true" />
+      <created>1731623666048</created>
+      <option name="number" value="00034" />
+      <option name="presentableId" value="LOCAL-00034" />
+      <option name="project" value="LOCAL" />
+      <updated>1731623666048</updated>
+    </task>
+    <option name="localTasksCounter" value="35" />
     <servers />
   </component>
   <component name="Vcs.Log.Tabs.Properties">
@@ -528,7 +543,8 @@
     <MESSAGE value="Course2Lesson2" />
     <MESSAGE value="Course2Lesson3" />
     <MESSAGE value="fixup! Course2Lesson5" />
-    <option name="LAST_COMMIT_MESSAGE" value="fixup! Course2Lesson5" />
+    <MESSAGE value="Course2Lesson5" />
+    <option name="LAST_COMMIT_MESSAGE" value="Course2Lesson5" />
   </component>
   <component name="XDebuggerManager">
     <breakpoint-manager>
