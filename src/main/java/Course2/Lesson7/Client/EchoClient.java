@@ -20,6 +20,7 @@ public class EchoClient extends JFrame {
     private Socket socket;
     private DataInputStream dataInputStream;
     private DataOutputStream dataOutputStream;
+    private String login;
 
     public EchoClient() {
         try {
@@ -40,9 +41,17 @@ public class EchoClient extends JFrame {
                     String messageFromServer = dataInputStream.readUTF();
                     if (messageFromServer.equals("/end")) {
                         break;
+                    } else if (messageFromServer.startsWith(Constants.AUTH_OK_COMMAND)) {
+                        String[] tokens = messageFromServer.split("\\s");
+                        this.login = tokens[1];
+                        textArea.append("Успешно авторизован как " + login);
+                        textArea.append("\n");
+                    } else if (messageFromServer.startsWith(Constants.CLIENT_LIST_COMMAND)) {
+                        //список клиентов
+                    } else {
+                        textArea.append(messageFromServer);
+                        textArea.append("\n");
                     }
-                    textArea.append(messageFromServer);
-                    textArea.append("\n");
                 }
                 textArea.append("Соединение разорванно");
                 textField.setEditable(false);
@@ -56,17 +65,17 @@ public class EchoClient extends JFrame {
     private void closeConnection() {
         try {
             dataOutputStream.close();
-        } catch (Exception ex) {
+        } catch (Exception ignored) {
 
         }
         try {
             dataInputStream.close();
-        } catch (Exception ex) {
+        } catch (Exception ignored) {
 
         }
         try {
             socket.close();
-        } catch (Exception ex) {
+        } catch (Exception ignored) {
 
         }
 

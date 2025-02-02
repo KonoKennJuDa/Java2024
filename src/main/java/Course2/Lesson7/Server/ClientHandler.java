@@ -6,6 +6,7 @@ import java.io.DataInputStream;
 import java.io.DataOutputStream;
 import java.io.IOException;
 import java.net.Socket;
+import java.util.Optional;
 
 /**
  * Обработчик для конкретного клиента.
@@ -46,14 +47,15 @@ public class ClientHandler {
             String str = dataInputStream.readUTF();
             if (str.startsWith(Constants.AUTH_COMMAND)) {
                 String[] tokens = str.split("\\s+"); // Массив длиной 3. \\s+ - регулярное выражение "пробел 1 или больше"
-                String nick = server.getAuthService().getNickByLoginAndPass(tokens[1], tokens[2]);
+                Optional<String> nick = server.getAuthService().getNickByLoginAndPass(tokens[1], tokens[2]);
 
-                if (nick != null) {
+                if (nick.isPresent()) {
                     //Можно проверять есть ли такой ник в чате, сделать проверку по нику
                     //Авторизовались
-                    name = nick;
+                    name = nick.get();
                     sendMessage(Constants.AUTH_OK_COMMAND + " " + nick);
                     server.broadcastMessage(nick + " вошел в чат");
+                    server.broadcastMessage(server.getActiveClient());
                     server.subscribe(this);
                     return;
                 } else {
@@ -77,12 +79,22 @@ public class ClientHandler {
         while (true) {
             String messageFromClient = dataInputStream.readUTF();
             //hint: можем получать команду
-            System.out.println("Сообщение от " + name + ": " + messageFromClient);
-            if (messageFromClient.equals(Constants.END_COMMAND)) {
-                break;
+
+            if (messageFromClient.startsWith(Constants.CLIENT_LIST_COMMAND)) {
+                sendMessage(server.getActiveClient());
+            } else {
+
+                System.out.println("Сообщение от " + name + ": " + messageFromClient);
+                if (messageFromClient.equals(Constants.END_COMMAND)) {
+                    break;
+                }
+                server.broadcastMessage(name + ": " + messageFromClient);
             }
-            server.broadcastMessage(name + ": " + messageFromClient);
         }
+    }
+
+    public String getName() {
+        return name;
     }
 
     private void closeConnection() {
@@ -104,4 +116,5 @@ public class ClientHandler {
             //ignore
         }
     }
+
 }

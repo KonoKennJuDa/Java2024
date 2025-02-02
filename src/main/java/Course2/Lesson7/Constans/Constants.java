@@ -25,4 +25,6 @@ public class Constants {
      * Команда для подвреждения аунтификации.
      */
     public static final String AUTH_OK_COMMAND = "/authok";
+
+    public static final String CLIENT_LIST_COMMAND = "/clients";
 }
